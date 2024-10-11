@@ -93,3 +93,35 @@ h1.mt {
 .card:hover {
   opacity: 1;
 }
+
+/* media query to for the cards */
+@media screen and (max-width:600) {
+ .container{
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+ }
+
+ .card{
+  width: 100%;
+  max-width: 300px;
+  padding: 10px;
+  box-shadow:0 2px 4px rgb(0, 0, 0, 0.1);
+ }
+ .card img{
+  width: 80px;
+  height: 80px;
+  margin-top: 10px;
+ }
+
+ #weatherInput {
+  width: 100%; 
+  margin-top: 10px; 
+}
+
+#weatherBtn {
+  width: 100%; 
+  padding: 10px; 
+}
+  
+}
